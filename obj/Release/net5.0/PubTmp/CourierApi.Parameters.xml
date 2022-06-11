@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="CourierManager" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^F:\\CourrierApi\\CourierApi\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="CourierApi.Models.courier.CouriersContext" description="" value="Data Source=tcp:couriermanagerdbserver.database.windows.net,1433;Initial Catalog=couriermanager;User Id=abdessamad@couriermanagerdbserver;Password=Berahhou@2001" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^F:\\CourrierApi\\CourierApi\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\CourierApi\.Models\.courier\.CouriersContext\.sql$" />
+  </parameter>
+  <parameter name="CourierApi.Models.file.FilesContext" description="" value="Data Source=tcp:couriermanagerdbserver.database.windows.net,1433;Initial Catalog=couriermanager;User Id=abdessamad@couriermanagerdbserver;Password=Berahhou@2001" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^F:\\CourrierApi\\CourierApi\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\CourierApi\.Models\.file\.FilesContext\.sql$" />
+  </parameter>
+  <parameter name="CourierApi.Models.RefreshToken.RefreshTokenContext" description="" value="Data Source=tcp:couriermanagerdbserver.database.windows.net,1433;Initial Catalog=couriermanager;User Id=abdessamad@couriermanagerdbserver;Password=Berahhou@2001" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^F:\\CourrierApi\\CourierApi\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\CourierApi\.Models\.RefreshToken\.RefreshTokenContext\.sql$" />
+  </parameter>
+  <parameter name="CourierApi.Models.Users.UsersContext" description="" value="Data Source=tcp:couriermanagerdbserver.database.windows.net,1433;Initial Catalog=couriermanager;User Id=abdessamad@couriermanagerdbserver;Password=Berahhou@2001" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^F:\\CourrierApi\\CourierApi\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\CourierApi\.Models\.Users\.UsersContext\.sql$" />
+  </parameter>
+</parameters>

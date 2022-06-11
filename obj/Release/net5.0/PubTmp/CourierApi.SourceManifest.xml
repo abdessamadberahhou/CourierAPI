@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="F:\CourrierApi\CourierApi\obj\Release\net5.0\PubTmp\Out\" />
+  <dbfullsql path="F:\CourrierApi\CourierApi\obj\Release\net5.0\PubTmp\EFSQLScripts\CourierApi.Models.courier.CouriersContext.sql" />
+  <dbfullsql path="F:\CourrierApi\CourierApi\obj\Release\net5.0\PubTmp\EFSQLScripts\CourierApi.Models.file.FilesContext.sql" />
+  <dbfullsql path="F:\CourrierApi\CourierApi\obj\Release\net5.0\PubTmp\EFSQLScripts\CourierApi.Models.RefreshToken.RefreshTokenContext.sql" />
+  <dbfullsql path="F:\CourrierApi\CourierApi\obj\Release\net5.0\PubTmp\EFSQLScripts\CourierApi.Models.Users.UsersContext.sql" />
+</sitemanifest>

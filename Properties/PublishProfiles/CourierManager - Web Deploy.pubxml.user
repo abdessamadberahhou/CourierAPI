@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWJ05L/AWFUGDnUlJTVLcygAAAAACAAAAAAAQZgAAAAEAACAAAABsv+XfZg6Rs6cu+XL13/7ZZCIM53lpCLngvTYrYjf6awAAAAAOgAAAAAIAACAAAAD1eLZvG4LF07u9Ixi+PZ1rAk7H9BY7tnRUKiy9qG96ZYAAAAAfKdqzWISyDCqNxWjQumtve0eogQceeAxZCgzDbNa7Bc/+97e01/gvsxhOxiED09sG2u0oud1P6jWQxxSfhPFBW2Gvx0vBPQStGSGxHvSqFxfraLHqBwogMnSfcWP25fGFt0rgabjvSAwX8Hlq7UQmyt+EY/elsaJK6lvTcC0hlUAAAAD6zm80v/E4BlgRlUTBt34DniIB52CX/SG/M1JUAojGwGtRXq1kDrAXNUaij+RGdDLy531bJKDjJmIzK5+VkOYK</EncryptedPassword>
+    <History>True|2022-06-07T16:20:25.7073505Z;True|2022-06-07T16:13:22.7402213+00:00;True|2022-06-07T15:52:26.5819060+00:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="CourierApi.Models.courier.CouriersContext">
+      <Value>Data Source=tcp:couriermanagerdbserver.database.windows.net,1433%3bInitial Catalog=couriermanager%3bUser Id=abdessamad%40couriermanagerdbserver%3bPassword=Berahhou%402001</Value>
+    </EFMigrations>
+    <EFMigrations Include="CourierApi.Models.file.FilesContext">
+      <Value>Data Source=tcp:couriermanagerdbserver.database.windows.net,1433%3bInitial Catalog=couriermanager%3bUser Id=abdessamad%40couriermanagerdbserver%3bPassword=Berahhou%402001</Value>
+    </EFMigrations>
+    <EFMigrations Include="CourierApi.Models.RefreshToken.RefreshTokenContext">
+      <Value>Data Source=tcp:couriermanagerdbserver.database.windows.net,1433%3bInitial Catalog=couriermanager%3bUser Id=abdessamad%40couriermanagerdbserver%3bPassword=Berahhou%402001</Value>
+    </EFMigrations>
+    <EFMigrations Include="CourierApi.Models.Users.UsersContext">
+      <Value>Data Source=tcp:couriermanagerdbserver.database.windows.net,1433%3bInitial Catalog=couriermanager%3bUser Id=abdessamad%40couriermanagerdbserver%3bPassword=Berahhou%402001</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

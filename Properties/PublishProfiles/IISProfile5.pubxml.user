@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <History>True|2022-05-08T19:22:39.3406045Z;True|2022-05-08T18:53:34.9033221+00:00;False|2022-05-08T18:49:34.7739826+00:00;True|2022-05-08T18:47:27.2313905+00:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="CourierApi.Models.Users.FlutterAuthContext">
+      <Value>Server=ABDOU%3bDatabase=FlutterAuth%3bTrusted_Connection=true%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
